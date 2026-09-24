@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'travis'
-gem 's3_website'
-gem 'jekyll'
-gem 'rdiscount'
+gem 'jekyll', "~> 4.4"
+gem 'markdown'
 gem 'jekyll-lunr-js-search'
 
 group :test do

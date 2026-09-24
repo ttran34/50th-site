@@ -13,7 +13,7 @@ timezone: America/Los_Angeles
 # Build settings
 exclude: ['.gitignore', 's3_website.yml', 'bower.json', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'Guardfile', 'README.md']
 
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions: [smart]
 

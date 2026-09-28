@@ -8,7 +8,7 @@
   "description": "Jekyll + lunr.js = Static websites with powerful full-text search using JavaScript.",
   "keywords": [
     "jekyll",
-    "lunr",
+    "lunr"
   ],
   "license": "MIT",
   "ignore": [

@@ -1,5 +1,3 @@
-gems: ['jekyll-lunr-js-search']
-
 # Site settings
 title: UC Santa Cruz celebrates 50 years
 email: pio@ucsc.edu
@@ -21,9 +19,3 @@ encoding: 'utf-8'
 
 twitter_username: ucsc
 github_username:  ucsc
-
-lunr_search:
-  js: 'js'
-  excludes: [rss.xml, atom.xml]
-
-

@@ -10,7 +10,6 @@
 <script src="/js/modernizr.js"></script>
 
 <!-- SEARCH -->
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
@@ -59,8 +58,8 @@
       {{ page.title }}
     </div></a>
     <div class="search-social">
-      <form action="/search/" method="get">
-         <input type="text" name="q" id="search-query" placeholder="Enter keywords..." autocomplete="off"/>
+      <form class="header-search-form" action="/search/" method="get">
+         <input type="text" name="query" id="search-box" placeholder="Enter keywords..." autocomplete="off"/>
       </form>
       <ul>
         <li><a href="https://www.facebook.com/ucsantacruz" class="facebook">Facebook</a></li>
